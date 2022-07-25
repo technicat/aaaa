@@ -64,7 +64,7 @@ Where are you from?
  
  What's your nationality?
  + I'm an American.
- -> youknow
+ -> youknow ->nationality
 + I was born in this country.
  -> ruchineseorjapanese
  
