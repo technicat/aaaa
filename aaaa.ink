@@ -1,4 +1,18 @@
-->hello
+->doyouspeak
+
+== doyouspeak
+
+Do you speak English?
+* Yes
+-> wherefrom
+* No
+-> hello
+* Nod politely.
+-> wherefrom
+* Stare blanklu
+-> hello
+* Walk away
+-> END
 
 == hello
 
@@ -13,6 +27,8 @@ Ni hao ma!
 -> wherefrom
 * Wo hao, xie xie.
 -> wherefrom
+* Walk away
+-> END
 
 == wherefrom
 
@@ -64,6 +80,8 @@ Where are you from?
  -> chineseorjapanese
  * Korean
  -> korean
+ * Other
+ -> korean
  
  
  == chineseorjapanese
@@ -86,13 +104,22 @@ Where are you from?
  
  == goodenglish
  Your English is good! You don't have an accent!
- ->asianwomen
+ ->vacation
+ 
+  == vacation
+ I went on a tour of your country last summer. Your people are so polite.
+ * Nod politely.
+ -> asianwomen
+ * Utter an obscenity.
+ ->END
  
   == asianwomen
  I love Asian women. Asian women are so beautiful!
  * Nod in agreement.
  -> asianmen
  * No expression.
+ -> asianmen
+  * I love white women!
  -> asianmen
  
  == asianmen
@@ -101,27 +128,18 @@ Where are you from?
  -> brucelee
  * No expression.
  -> brucelee
+ * Utter an obscenity.
+ ->END
  
   == brucelee
  You look like Bruce Lee. Haiyah!
   * Thanks.
- -> vacation
+ -> food
  * No expression.
- -> vacation
- 
- == vacation
- I visited China last summer. Your people are so polite.
- * Nod politely.
- -> rude
- * Utter an obscenity.
- ->END
- 
- == rude
-But an Asian women was so rude to me here! When I went to China, I was polite to everyone!
-* Was she American?
--> nationality
-* Nod politely.
-->food
+ -> food
+ * Punch them
+ -> END
+
 
 == food
 I love Chinese food. Let's get some gyoza.
