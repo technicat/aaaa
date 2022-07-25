@@ -3,23 +3,23 @@
 == doyouspeak
 
 Do you speak English?
-* Yes
+* Yes.
 -> wherefrom
-* No
+* No.
 -> hello
 * Nod politely.
 -> wherefrom
-* Stare blanklu
+* Stare blankly.
 -> hello
-* Walk away
+* Walk away.
 -> END
 
 == hello
 
 Ni hao ma!
-* I don't know Chinese
+* I don't know Chinese.
 -> wherefrom
-* I don't know Mandarin
+* I don't know Mandarin.
 -> wherefrom
 * What?
 -> wherefrom
@@ -27,7 +27,7 @@ Ni hao ma!
 -> wherefrom
 * Wo hao, xie xie.
 -> wherefrom
-* Walk away
+* Walk away.
 -> END
 
 == wherefrom
@@ -74,13 +74,13 @@ Where are you from?
  -> youknow
  * I was born in this country.
  -> youknow
- * Chinese
+ * Chinese.
  -> chineseorjapanese
- * Japanese
+ * Japanese.
  -> chineseorjapanese
- * Korean
+ * Korean.
  -> korean
- * Other
+ * Other.
  -> korean
  
  
