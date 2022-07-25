@@ -1,7 +1,7 @@
 Where are you from?
 
- * There were two choices.
- * There were four lines of content.
+ * I live here..
+ * I moved here from California..
 
-- They lived happily ever after.
+- I mean before that!
     -> END
