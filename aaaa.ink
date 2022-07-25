@@ -1,4 +1,18 @@
-->wherefrom
+->hello
+
+== hello
+
+Ni hao ma!
+* I don't know Chinese
+-> wherefrom
+* I don't know Mandarin
+-> wherefrom
+* What?
+-> wherefrom
+* Nod politely.
+-> wherefrom
+* Wo hao, xie xie.
+-> wherefrom
 
 == wherefrom
 
@@ -21,14 +35,14 @@ Where are you from?
  
  No, I mean really, where are you from?
  * I'm an American. 
- -> youknow
+ -> youknow ->nationality
  * I was born in this country.
- -> youknow
+ -> youknow ->nationality
  
  == youknow
  
  You know what I mean!
- -> nationality
+ ->->
  
  == nationality
  
@@ -68,6 +82,62 @@ Where are you from?
  
  == longtime
  Wow, that's a long time!
+ ->goodenglish
+ 
+ == goodenglish
+ Your English is good! You don't have an accent!
+ ->asianwomen
+ 
+  == asianwomen
+ I love Asian women. Asian women are so beautiful!
+ * Nod in agreement.
+ -> asianmen
+ * No expression.
+ -> asianmen
+ 
+ == asianmen
+ But Asian guys are ugly. Not you of course!
+ * Thanks.
+ -> brucelee
+ * No expression.
+ -> brucelee
+ 
+  == brucelee
+ You look like Bruce Lee. Haiyah!
+  * Thanks.
+ -> vacation
+ * No expression.
+ -> vacation
+ 
+ == vacation
+ I visited China last summer. Your people are so polite.
+ * Nod politely.
+ -> rude
+ * Utter an obscenity.
+ ->END
+ 
+ == rude
+But an Asian women was so rude to me here! When I went to China, I was polite to everyone!
+* Was she American?
+-> nationality
+* Nod politely.
+->food
+
+== food
+I love Chinese food. Let's get some gyoza.
+* Gyoza is Japanese.
+-> diff
+* OK
+-> diff
+
+== diff
+Is there a difference between Chinese and Japanese food?
+* Yes.
+->END
+* Is there a difference between German and Italian food?
+->END
+* Utter an obscenity.
+ ->END
  
  -> END
  
