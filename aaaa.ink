@@ -32,10 +32,10 @@ Where are you from?
  
  == nationality
  
- What's your natinality?
- * I'm an American.
+ What's your nationality?
+ + I'm an American.
  -> youknow
- * I was born in this country.
++ I was born in this country.
  -> ruchineseorjapanese
  
  == ruchineseorjapanese
@@ -62,5 +62,12 @@ Where are you from?
  
  == howlong
  How long have you been in this country?
+ * [State your age]
+ You state your age.
+ -> longtime
+ 
+ == longtime
+ Wow, that's a long time!
+ 
  -> END
  
