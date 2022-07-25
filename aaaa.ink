@@ -28,5 +28,17 @@ Where are you from?
  == youknow
  
  You know what I mean!
+ -> nationality
  
- -> END
+ == nationality
+ 
+ What's your natinality?
+  * I'm an American. 
+ -> youknow
+ * I was born in this country.
+ -> chineseorjapanese
+ 
+ == chineseorjapanese
+ Are you Chinese or Japanese?
+ ->END
+ 
